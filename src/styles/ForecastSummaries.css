@@ -1,5 +1,7 @@
 .forecast-summaries {
     display: flex;
     justify-content: space-evenly;
-    border: solid 3px black;
+    border: solid 3px white;
+    font-size: 25px;
+    color: white;
 }
