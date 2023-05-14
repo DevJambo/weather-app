@@ -1,0 +1,22 @@
+.button-1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transition: 0.2s all;
+    background: black;
+    border: 3px solid white;
+    color: white;
+}
+
+.button-1:active {
+    transform: scale(0.96);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.button-1:hover {
+    color: black;
+    background: rgb(245, 245, 245, 0.75);
+    border: 3px solid black;
+}

@@ -1,6 +1,9 @@
 body {
     background-image: url("../../../../../Pictures/weatherappbackground6.jpg");
     background-size: 1950px 975px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
 }
 
 h1 {
@@ -8,11 +11,10 @@ h1 {
     color: azure;
     font-size: 50px;
     border: solid white 3px;
-    width: 20%;
+    width: fit-content;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    padding: 5px;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .weather-app {
